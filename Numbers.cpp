@@ -5,7 +5,7 @@ const int N = 10;
 
 void printNumbers(bool printEven, int limit) {
 
-    int start = printEven ? 0 : 1;
+    int start = printEven ;
 
     for (int i = start; i <= limit; i++) {
 
